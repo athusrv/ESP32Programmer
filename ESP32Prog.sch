@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -12943,10 +12943,10 @@ W = angled&lt;p&gt;
 <wire x1="-27.94" y1="35.56" x2="-25.4" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="USB_PROG" gate="G$1" pin="4"/>
-<wire x1="-35.56" y1="40.64" x2="-33.02" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="-33.02" y1="40.64" x2="-33.02" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="USB_PROG" gate="G$1" pin="5"/>
+<wire x1="-33.02" y1="38.1" x2="-33.02" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="38.1" x2="-35.56" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="1" pin="2"/>
